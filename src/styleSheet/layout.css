@@ -1,0 +1,37 @@
+.navBar {
+    height: 80px;
+    width: 100vw;
+    background-color: #2ece2e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul:nth-child(2) {
+    justify-content: flex-end;
+}
+
+a {
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+a:hover {
+    color: red;
+}
+
+.form_log {
+    justify-content: flex-end;
+}
+
