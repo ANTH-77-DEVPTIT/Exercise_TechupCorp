@@ -35,3 +35,6 @@ a:hover {
     justify-content: flex-end;
 }
 
+.active {
+    color: red;
+}

@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Posts from '../components/Posts'
+import SideBar from "../components/SideBar"
 const Blogs = () => {
   return (
-    <div>Blogs</div>
+    <div style ={{display:"flex"}}>
+      <Posts/>
+      <SideBar/>
+    </div>
   )
 }
 
