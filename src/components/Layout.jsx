@@ -14,13 +14,13 @@ const Layout = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/blogs">Blogs</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
+              <Link className="active" to="/blogs">Blogs</Link>
             </li>
             <li>
               <Link to="/channel">MyChannel</Link>
+            </li>
+            <li>
+              <Link to="/shop">MyShop</Link>
             </li>
           </ul>
         </div>
@@ -28,11 +28,11 @@ const Layout = () => {
         <div>
           <ul>
             <li>
-              <Link to="/login">Login</Link>
+              <Link to="/login" style={{marginRight:"20px"}}>Login</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/logout">Logout</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
